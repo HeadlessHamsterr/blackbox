@@ -1,0 +1,44 @@
+#define RST_PIN         5 
+#define SS_PIN          53
+#define DRAWER_1_IN1    2
+#define DRAWER_1_IN2    3
+#define DRAWER_1_IN3    4
+#define DRAWER_1_IN4    5
+#define DRAWER_2_IN1    6
+#define DRAWER_2_IN2    7
+#define DRAWER_2_IN3    8
+#define DRAWER_2_IN4    9
+#define FLOPPY_1        10
+#define FLOPPY_2        11
+#define FLOPPY_3        12
+#define FLOPPY_4        13
+#define MORSE_LAMP      14
+#define INSTR_PANEL_PIN A0
+#define ENC_PIN_A       18
+#define ENC_PIN_B       19
+#define ENC_BTN         15
+
+#define CLOCK_FREQUENCY             16000000
+#define DESIRED_INTERRUPT_FREQ_S    2
+#define INTERRUPT_PRESCALER         1024
+#define DRAWER_MOVE_DEG             100
+#define FLOPPY_TURN_OFF_DELAY       2000
+#define TAG1_INSTRUCTION            0x01
+#define TAG2_INSTRUCTION            0x02
+#define TAG3_INSTRUCTION            0x03
+#define RADIO_MESSAGE               0x04
+#define DONE_PLAYING_INSTRUCTION    0xEE
+#define spritePlayer                Serial1
+#define MORSE_DOT_LENGTH            200
+#define TAG1                        "C9982CC2"
+#define TAG2                        "191CBDC2"
+#define TAG3                        "D9906FC2"
+#define TAG4                        "D9906FC2"
+
+#define CORRECT_FREQUENCY           873.4
+#define MORSE_STRING                "ERWIN"
+
+#define GAME_STATE_ADDR             0
+#define INST_PANEL_BIT              0
+#define RADIO_DONE_BIT              1
+#define MORSE_DONE_BIT              2
